@@ -1,0 +1,86 @@
+
+
+ul {
+    list-style-type:none;
+    margin: 12px;
+    padding: 12px;
+    flex-basis: 100wv;
+    background-color:#ffffff;
+    border: 2px solid rgb(255, 255, 255)
+}
+
+li a {
+    color: rgb(93, 93, 93);
+    font-size: large;
+    padding: 20px 20px;
+    text-decoration: none;
+    display:inline;
+    font-family: 'Cormorant Gaamond'; font-size: 15px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 13px
+}
+
+
+li {
+    text-align: center;
+    display: inline;
+    height: 15px;
+    
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #cfd1dd;
+    color: rgb(0, 0, 0);
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.315);
+    color: rgba(0, 0, 0, 0.693);
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    float: none;
+}
+.footeritem{
+padding-right: 300px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hej{
+    padding-right: 0px;
+}
+
+
+
+.myflexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.myflexbox div {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: white;
+    
+}
+
+.logga {
+    flex-basis: 50vw;
+    height: 100px;
+    padding-right: 1300px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 0px;
+    
+}
+
