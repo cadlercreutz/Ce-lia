@@ -2,23 +2,24 @@
 
 ul {
     list-style-type:none;
-    margin: 12px;
-    padding: 12px;
-    flex-basis: 100wv;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 90wv;
     background-color:#ffffff;
-    border: 2px solid rgb(255, 255, 255)
+    border: 3px solid rgb(255, 255, 255)
 }
 
 li a {
-    color: rgb(93, 93, 93);
+    color: rgb(47, 47, 47);
     font-size: large;
-    padding: 20px 20px;
+    padding: 0px 0px;
     text-decoration: none;
     display:inline;
     font-family: 'Cormorant Gaamond'; font-size: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     position: relative;
-    top: 13px
+    top: 6px;
+    
 }
 
 
@@ -26,6 +27,8 @@ li {
     text-align: center;
     display: inline;
     height: 15px;
+    padding-left: 230px;
+    
     
 }
 
@@ -40,25 +43,23 @@ li a.active {
 
 li a:hover:not(.active) {
     background-color: rgba(255, 255, 255, 0.315);
-    color: rgba(0, 0, 0, 0.693);
+    color: rgba(148, 148, 148, 0.693);
     border-radius: 20px;
 }
 
 .footer{
     display: flex;
     flex-direction: row;
-
     float: none;
 }
 .footeritem{
-padding-right: 300px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.hej{
-    padding-right: 0px;
-}
+    padding-right: 300px;
+    padding-left: 100px;
+    font-family: 'Cormorant Gaamond'; font-size: 15px; font-style: italic;
 
-
+}
+    
+    
 
 .myflexbox {
     display: flex;
@@ -83,4 +84,42 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     top: 0px;
     
 }
+
+h1 {
+    font-family: 'Cormorant Gaamond'; font-size: 27px; font-style: italic;
+    text-align: center;
+    color: #616161;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+p {
+    font-family: 'Cormorant Gaamond'; font-size: 17px; font-style: italic;
+    text-align: center;
+    color: #424242;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.erbjudande {
+    font-family: 'Cormorant Gaamond'; font-size: 22px; font-style: italic;
+    padding-left: 400px;
+    color: #6a6a6a; 
+    letter-spacing: 2px;
+    padding-top: 10px;
+   
+    
+}
+
+
+
+video{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 1455px;
+    height: 830px;
+}
+   
 

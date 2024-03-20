@@ -8,7 +8,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-RVCVPE9Z3D');
+  gtag('config', 'G-RVCVPE9Z3D');.‚
 </script>
 
     <meta name="description" content="Célia är ett klädvaruhus">
@@ -17,52 +17,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produkter</title>
-    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/produkter.css">
 
 </head>
-<body style="text-align: center;" onload="buildMenu()">
-    <ul id="menu"></ul>
+<body onload="buildMenu()">
+   
     <header>
         <section>
 
             <div class="myflexbox">
                 <div class="logga"><img class="logga" src="bilder/Célia_logga.png"></div>
+                <ul id="menu"></ul>
             </div> 
-            
-        
-            <script src="js/start.js"></script> <br> <br>
+
+            <br> <br>
+
         </section>
     </header>
-    
-    <img class="bild" src="bilder/produktsida_celia1.png" controls width="1000" height="360">
+    <br>
 
-    <div class="produkter"> <br> <br>
-        <img class="produkt1" src="bilder/pexels-alina-matveycheva-20295109.jpg" width="300" height="430">
+    <div class="container">
+        <img class="bild" src="bilder/produktertrench.jpg" controls width="1290" height="730">
+        <div class="centered">PRODUKTER</div>
+      </div>
+
+    <div class="flexcontainer">
+    
+    <div class="produkt1">
+        <img class="imagediv" src="bilder/vida_jeans.jpg" width="300" height="500">
         <h2>Jeans med hög midja</h2> 
-        <p>599 SEK</p>
+        <p class="price">599 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Jeans med hög midja' 599)" width="100">
     </div>
-    <div>
-        <img class="produkt2" src="bilder/pexels-cottonbro-studio-9836627.jpg" width="300" height="430">
+
+    <div class="produkt2">
+        <img class="imagediv" src="bilder/beige_kavaj.jpg" width="300" height="500">
         <h2>Oversized kavaj</h2> 
-        <p>599 SEK</p>
+        <p class="price">599 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Oversized kavaj' 599)" width="100">
     </div>
-    <div>
-        <img class="produkt3" src="bilder/pexels-cottonbro-studio-10679192.jpg" width="300" height="430">
+
+    <div class="produkt3">
+        <img class="imagediv" src="bilder/beigekavaj.jpg" width="300" height="500">
         <h2>Oversized kavaj</h2> 
-        <p>599 SEK</p>
+        <p class="price">599 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Oversized kavaj' 599)" width="100">
     </div>
-    <div>
-        <img class="produkt4" src="bilder/pexels-cottonbro-studio-8468817.jpg" width="300" height="430">
+    </div>
+
+    <div class="flexcontainer2">
+    <div class="produkt4">
+        <img class="imagediv" src="bilder/bla_kavaj.jpg" width="300" height="500">
         <h2>Oversized kavaj</h2> 
-        <p>399 SEK</p>
+        <p class="price">499 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Oversized kavaj' 499)" width="100">
     </div>
-    <div>
-        <img class="produkt5" src="bilder/pexels-maksim-goncharenok-6702726.jpg" width="300" height="430">
+
+    <div class="produkt5">
+        <img class="imagediv" src="bilder/svarta_byxor.jpg" width="300" height="500">
         <h2>Vid byxa</h2> 
-        <p>599 SEK</p>
+        <p class="price">599 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Vid byxa' 599)" width="100">
     </div>
+
+    <div class="produkt6">
+        <img class="imagediv" src="bilder/svart_klanning.jpg" width="300" height="500">
+        <h2>Maxiklänning</h2>
+        <p class="price">499 SEK</p>
+        <img src="bilder/buy2.webp" onclick="addToCart(1,'Maxiklänning' 499)" width="100">
     </div>
- 
+    <div id="cart" class="cart"></div>
+    
+    </div>
+    <br>
+
+    <div class="footer">
+        <div class="footeritem">Kontakt<br>FAQ</div>
+        <div class="footeritem">Om oss<br>Allmänna villkor</div>
+        <div class="footeritem">Nyhetsbrev<br><label for="efternamn" >Skriv din e-post här </label> <br>
+            <input  type="email" id="email" type="text"> <input type="submit" value="SKICKA"> </div> 
+        </div>
+    
+    
+    <br>
+    <footer>
+        <small>
+          <div style="text-align: right;"> Följ oss: Instagram, Facebook, Pinterest, Youtube </div><div style="text-align: left;">©2024 Célia</div>
+        </small>
+      </footer>
+
+    <script src="js/start.js"></script>
 </body>
 
 </html>

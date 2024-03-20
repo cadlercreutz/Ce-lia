@@ -1,23 +1,24 @@
 
+
 ul {
     list-style-type:none;
-    margin: 12px;
-    padding: 12px;
-    flex-basis: 100wv;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 90wv;
     background-color:#ffffff;
-    border: 2px solid rgb(255, 255, 255)
+    border: 3px solid rgb(255, 255, 255)
 }
 
 li a {
-    color: rgb(93, 93, 93);
+    color: rgb(47, 47, 47);
     font-size: large;
-    padding: 20px 20px;
+    padding: 0px 0px;
     text-decoration: none;
     display:inline;
     font-family: 'Cormorant Gaamond'; font-size: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     position: relative;
-    top: 13px
+    top: 6px;
 }
 
 
@@ -25,6 +26,8 @@ li {
     text-align: center;
     display: inline;
     height: 15px;
+    padding-left: 230px;
+    
     
 }
 
@@ -39,9 +42,24 @@ li a.active {
 
 li a:hover:not(.active) {
     background-color: rgba(255, 255, 255, 0.315);
-    color: rgba(0, 0, 0, 0.693);
+    color: rgba(148, 148, 148, 0.693);
     border-radius: 20px;
 }
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    float: none;
+}
+.footeritem{
+padding-right: 300px;
+padding-left: 100px;
+font-family: 'Cormorant Gaamond'; font-size: 15px; font-style: italic;
+}
+
+
 
 .myflexbox {
     display: flex;
@@ -64,24 +82,125 @@ li a:hover:not(.active) {
     padding-bottom: 100px;
     position: absolute;
     top: 0px;
+}
+
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    font-family: 'Cormorant Gaamond'; font-size: 10px; font-style: italic;
+    margin: 20px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.flexcontainer2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    font-family: 'Cormorant Gaamond'; font-size: 10px; font-style: italic;
+    margin: 20px;
+    padding-left: 45px;
+    padding-top: 0px;
+}
+
+
+
+.produkt1
+{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+
+.produkt2{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+
+.produkt3{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+
+.produkt4{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+
+.produkt5{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+
+.produkt6{
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px;
+    padding: 20px;
+}
+ul
+{
+    margin: 10;
+    padding: 0;
+    list-style-type: none;
+
+}
+li{
+    margin: 10px;
     
 }
+.cart{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cartbutton{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
 
-.produkter{
-    display: inline;
-    flex-direction: row;
-    padding: 20px;
-    float: none;
-    font-family: 'Cormorant Gaamond'; font-size: 10px;
- 
+.cartbutton{
+    text-decoration: none;
+}
+
+.imagediv{
+    width: 380px;
+    height: 500px;
+}
+
+h2{
+    font-family: 'Cormorant Gaamond'; font-size: 20px; 
+     letter-spacing: 1px;
+     color: #616161;
+}
+
+.price{
+    font-size:medium;
+    letter-spacing: 1px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Gaamond'; font-size: 60px; font-style:oblique;
+    letter-spacing: 16px;
 
 }
 
-.produkt1{
-    display: inline;
-    flex-direction: row;
-    padding: 20px;
-    float: none;
-    font-family: 'Cormorant Gaamond'; font-size: 10px;
-   
-}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
