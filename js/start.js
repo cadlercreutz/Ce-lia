@@ -34,12 +34,14 @@ function removeFromCart(index)
 {
     cart.splice(index, 1); 
     showCart()
+    event.preventDefault();
 }
 
 function addQuantity(index)
 {
     cart[index].quantity++
     showCart()
+    event.preventDefault();
 }
 
 function subtractQuantity(index)
@@ -53,6 +55,7 @@ function subtractQuantity(index)
         cart.splice(index, 1);
     }
     showCart()
+    event.preventDefault();
 }
 
 
@@ -63,7 +66,7 @@ function showCart()
     for(let i = 0; i < cart.length; i++)
     {
         
-        cartHTML += "<li><a href='#' class='cartbutton' onclick='removeFromCart(" + i + ")'>X</a>"
+        cartHTML += "<li><a href='#' class='cartbutton' onclick='removeFromCart(event," + i + ")'>X</a>"
         cartHTML += "<a href='#' class='cartbutton' onclick='subtractQuantity(" + i + ")'>-</a>"
         cartHTML += "<a href='#' class='cartbutton' onclick='addQuantity(" + i + ")'>+</a>"  
         cartHTML += cart[i].quantity + " st " + cart[i].name + " - " + cart[i].price * cart[i].quantity

@@ -20,7 +20,6 @@ li a {
     
 }
 
-
 li {
     text-align: center;
     display: inline;
@@ -97,7 +96,7 @@ li a:hover:not(.active) {
     padding-left: 30px;
     padding-top: 0px;
     padding-bottom: 60px;
-   
+    
 }
 
 .bild1{
@@ -114,20 +113,19 @@ li a:hover:not(.active) {
     float: left;
 }
 
-h1{
-    padding-top: 40px;
-    padding-left: 1050px;
-    font-family: 'Cormorant Gaamond'; font-size: 25px; font-style: italic;
-    letter-spacing: 2px;
-    color: #616161;
+.textcontent{
+    text-align: center;
 
 }
 
-p{
-    font-family: 'Cormorant Gaamond'; font-size: 15px; font-style: italic;
-    color: #424242;
-    letter-spacing: 2px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 1240px;
+.utvaldtext{
+    font-family: 'Cormorant Gaamond'; font-size: 16px; font-style: italic;
+    margin-left: 40px;
+    margin-top: 40px;
 }
+.rubrik{
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
